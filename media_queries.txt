@@ -1,0 +1,55 @@
+<html>
+<head>
+<meta name="viewport" content="width=device=width, initial-scale=1.0">
+<style>
+*{
+box-sizing:border-box;
+}
+.left{
+background-color:blue;
+padding:20px;
+float:left;
+width:20%; 
+}
+.center{
+background-color:yellow;
+padding:20px;
+float:left;
+width:60%;
+}
+.right{
+background-color:pink;
+padding:20px;
+float:left;
+width:20%;
+}
+
+@media screen and (max-width:2000px){
+.left, .center, .right{
+width:100%;
+}
+}
+</style>
+</head>
+</body>
+
+
+<h2>Media Queries</h2>
+<p>Resize browser window.</p>
+
+
+<div class="left">
+<p> left Content</p>
+</div>
+
+<div class="center">
+<p> Main Content</p>
+</div>
+
+<div class="right">
+<p>Right Content</p>
+</div>
+
+</body>
+</html>
+
